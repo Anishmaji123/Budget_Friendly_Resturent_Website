@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Friendly Restaurant Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ⭐ HERO SECTION -->
+  <header class="hero">
+    <h1 class="fade-in">Find Budget-Friendly Restaurants</h1>
+    <p class="fade-in-2">Enter your budget & get the best food suggestions instantly!</p>
+
+    <div class="budget-box fade-in-3">
+      <input type="number" id="budgetInput" placeholder="Enter Budget (₹)">
+      <button onclick="suggestRestaurant()">Suggest</button>
+    </div>
+  </header>
+
+  <!-- ⭐ RESTAURANT SUGGESTION BOX -->
+  <section class="suggestion-section">
+    <h2>Your Suggestion:</h2>
+    <p id="resultText">Enter a budget to get suggestions.</p>
+  </section>
+
+  <!-- ⭐ POPULAR RESTAURANTS SECTION -->
+  <section class="restaurant-gallery">
+    <h2>Popular Budget Restaurants</h2>
+
+    <div class="gallery-container">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9" alt="Restaurant">
+        <h3>Food Express</h3>
+        <p>Meals starting at ₹120</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1" alt="Restaurant">
+        <h3>Spicy Hub</h3>
+        <p>Meals starting at ₹150</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0" alt="Restaurant">
+        <h3>Taste Corner</h3>
+        <p>Meals starting at ₹180</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1528602476533-4b4c6c9f69b4" alt="Restaurant">
+        <h3>Biryani House</h3>
+        <p>Meals starting at ₹200</p>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
