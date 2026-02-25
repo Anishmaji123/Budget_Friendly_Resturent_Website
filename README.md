@@ -1,4 +1,4 @@
-🍽️ BudgetBite – Affordable Restaurant Website
+🍽️  Budget_Friendly_Resturent_Website– Affordable Restaurant Website
 A simple and responsive budget-friendly restaurant website built using HTML, CSS, and JavaScript.
 This project is perfect for beginners who want to showcase a food business website without using any frameworks.
 
@@ -40,7 +40,7 @@ Download or clone the repository
 
 Code
 
-git clone https://github.com/your-username/budgetbite.git
+git clone https://github.com/Anishmaji123/Budget_Friendly_Resturent_Website.git
 Open the folder
 
 Double-click index.html
